@@ -95,8 +95,8 @@ body{font-family:'PT Sans', Arial, sans-serif}
 #footer a:hover{text-decoration:underline}
 
 .modal-wrap{position:fixed;display:none;z-index:98;top:0;left:0;right:0;bottom:0;filter: Alpha(Opacity=90);opacity:.9;background-color:#000}
-.modal{display:none;top:15%;left:50%;z-index:99;overflow:hidden;border-radius:8px;-moz-border-radius:8px;-webkit-border-radius:8px;background-color:#FFF;margin-left:-155px;position:fixed;max-width:310px;width:100%}
-.modal h3{background-color:#6441a5;text-align:center;padding:20px 40px;line-height:1.1em;color:#FFF;font-weight:600;font-size:1.75em}
+.modal{background-color:#2d8ce0;display:none;top:15%;left:50%;z-index:99;overflow:hidden;border-radius:8px;-moz-border-radius:8px;-webkit-border-radius:8px;margin-left:-155px;position:fixed;max-width:310px;width:100%}
+.modal h3{text-align:center;padding:10px 15px;line-height:1.1em;color:#FFF;font-weight:600;font-size:1.75em}
 .modal p{font-size:1.2em;text-align:center;padding-bottom:5px}
 .modal a{color:#406c89;font-weight:400;padding:5px 10px;text-decoration:none}
 .modal a:hover{text-decoration:underline}
