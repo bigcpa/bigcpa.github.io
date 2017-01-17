@@ -709,7 +709,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     z-index: 1;
 }
 .cover.black{
-    background-color: rgba(0,0,0,.85);
+    background-color: rgba(0,0,0,.7);
 }
 .cover.blue{
     background-color: rgba(5, 31, 60, 0.6);
@@ -813,7 +813,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     height: auto;
     z-index: 1;
     overflow: hidden;
-    background-image: url('images/video_bg.jpg');
+    background-image: url('../images/video_bg.jpg');
     background-position: center center;
     background-size: cover;
 
