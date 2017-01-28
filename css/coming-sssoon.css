@@ -167,8 +167,8 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     border-color: #999999
 }
 .btn-primary {
-    color: #3472F7;
-    border-color: #3472F7;
+    color: #0057E7;
+    border-color: #0057E7;
 }
 .btn-info{
      color: #2C93FF;
@@ -263,8 +263,9 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     border-color: #999999
 }
 .btn-primary.btn-fill{
-    background-color: #3472F7;
-    border-color: #3472F7;
+    background-color: #0057E7;
+    border-color: #0057E7;
+    background-color: rgba(255, 59, 48, 0.25);
 }
 .btn-info.btn-fill{
     background-color: #2C93FF;
