@@ -836,7 +836,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     width: 100%;
     height: 40px;
     z-index: 4;
-    text-align: right;
+    text-align: left;
 }
 .footer a{
     color: #999;
