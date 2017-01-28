@@ -975,6 +975,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     }
     .main .logo{
         font-size: 40px;
+        margin-top: 60px;
     }
 
 }
