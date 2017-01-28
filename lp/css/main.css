@@ -66,7 +66,7 @@ body{font-family:'PT Sans', Arial, sans-serif}
 .ul-link ul li{margin-bottom:10px;line-height:1em}
 .ul-link p{text-align:center;padding:15px 0 0 !important}
 
-#main-content #call-to-action{padding:15px 15px;text-transform:uppercase;text-align:center}
+#main-content #call-to-action{padding:30px 15px;text-transform:uppercase;text-align:center}
 #main-content #call-to-action a{color:#fff;padding:15px 30px;display:block;font-weight:600;font-size:1.7em;text-align:center;text-decoration:none;background-color:#4c8efa;letter-spacing:.04em;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;box-shadow: 0 4px 6px rgba(0, 0, 0, .50)}
 #main-content #call-to-action a:hover{color:#fff;background-color:#FF3B30}
 
@@ -114,9 +114,10 @@ body{font-family:'PT Sans', Arial, sans-serif}
 
 #main-content .table-cell h2{margin-bottom:10px}
 #main-content .table-cell ul{display:inline-block;float:none}
-#main-content #call-to-action a{letter-spacing:normal}}@media screen and (max-width: 660px){#main-content .table-cell ul li{float:none;margin-bottom:5px}
+#main-content #call-to-action a{letter-spacing:normal}}@media screen and (max-width: 768px){#main-content .table-cell ul li{float:none;margin-bottom:5px}
 #main-content #call-to-action a{font-size:1.25em}
-#main-content #call-to-action{padding:15px 0}
+#main-content #call-to-action{padding:30px 0}
+#main-content h1{line-height:1}
 
 .ul-link{padding:0}
 .ul-link p br{display:none}
@@ -125,5 +126,3 @@ body{font-family:'PT Sans', Arial, sans-serif}
 #main-content #secrets .table .table-cell{text-align:center;display:block}
 #main-content #secrets .table .table-cell h3{margin:0 !important}
 #main-content #secrets .table .table-cell ul{margin:0 !important}
-
-@media screen and (max-width: 768px){#main-content h1{line-height:1}
