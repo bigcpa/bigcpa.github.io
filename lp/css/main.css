@@ -29,7 +29,7 @@ body{font-family:'PT Sans', Arial, sans-serif}
 
 #main-content{max-width:812px;margin:10px auto;padding:0 10px}
 
-#main-content h1{color:#4c8efa;font-size:1.95em;text-align:center;padding-bottom:30px}
+#main-content h1{color:#0057E7;font-size:1.95em;text-align:center;padding-bottom:30px}
 
 #main-content h1 span{color:#FF3B30}
 #main-content h1 b{text-transform:uppercase}
@@ -67,7 +67,7 @@ body{font-family:'PT Sans', Arial, sans-serif}
 .ul-link p{text-align:center;padding:15px 0 0 !important}
 
 #main-content #call-to-action{padding:30px 15px;text-transform:uppercase;text-align:center}
-#main-content #call-to-action a{color:#fff;padding:15px 30px;display:block;font-weight:600;font-size:1.7em;text-align:center;text-decoration:none;background-color:#4c8efa;letter-spacing:.04em;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;box-shadow: 0 4px 6px rgba(0, 0, 0, .50)}
+#main-content #call-to-action a{color:#fff;padding:15px 30px;display:block;font-weight:600;font-size:1.7em;text-align:center;text-decoration:none;background-color:#0057E7;letter-spacing:.04em;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;box-shadow: 0 4px 6px rgba(0, 0, 0, .50)}
 #main-content #call-to-action a:hover{color:#fff;background-color:#FF3B30}
 
 #main-content #under-link{margin:5px 0;display:block;text-align:center;font-size:1.25em}
@@ -106,7 +106,7 @@ body{font-family:'PT Sans', Arial, sans-serif}
 .modal .center .table .table-cell.left{font-weight:700;font-size:1.85em}
 .modal .center .table .table-cell.right{text-align:right;font-weight:300}
 .modal .center input[type="email"]{margin:0 0 20px 0;border:1px solid #CCC;padding:8px 6px;font-weight:300;font-size:1.15em;color:#666;width:100%;font-style:italic;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;background:linear-gradient(to bottom, #f8f8f8 0%, #fff 100%)}
-.modal .center input[type="submit"]{color:#fff;display:block;font-weight:600;font-size:1.5em;text-align:center;text-decoration:none;background-color:#4c8efa;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;padding:10px;width:100%;border:0;letter-spacing:0;box-shadow: 0 4px 6px rgba(0, 0, 0, .50)}
+.modal .center input[type="submit"]{color:#fff;display:block;font-weight:600;font-size:1.5em;text-align:center;text-decoration:none;background-color:#0057E7;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;padding:10px;width:100%;border:0;letter-spacing:0;box-shadow: 0 4px 6px rgba(0, 0, 0, .50)}
 .modal .center input[type="submit"]:hover{color:#fff;background-color:#6441a5;cursor:pointer}
 .modal .center input[type="submit"]:active{outline:none;}
 .modal .center h4{color:#9898B8;font-size:1.2em;text-align:center;padding-top:10px}
