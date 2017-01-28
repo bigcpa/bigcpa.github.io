@@ -972,5 +972,8 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     #video_background{
         display: none;
     }
+    .main .logo{
+        font-size: 40px;
+    }
 
 }
