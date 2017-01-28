@@ -1,5 +1,0 @@
-ErrorDocument 404 /404.html
-
-RewriteEngine On
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
-RewriteRule ^index\.html$ https://bigcpa.github.io/ [R=301,L]
