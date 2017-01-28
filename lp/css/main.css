@@ -31,7 +31,7 @@ body{font-family:'PT Sans', Arial, sans-serif}
 
 #main-content h1{color:#0057E7;font-size:1.95em;text-align:center;padding-bottom:30px}
 
-#main-content h1 span{color:#FF3B30}
+#main-content h1 span{color:#D62D20}
 #main-content h1 b{text-transform:uppercase}
 
 #main-content h2{color:#9898B8;font-size:1.2em;text-align:center;padding-bottom:10px}
@@ -68,7 +68,7 @@ body{font-family:'PT Sans', Arial, sans-serif}
 
 #main-content #call-to-action{padding:30px 15px;text-transform:uppercase;text-align:center}
 #main-content #call-to-action a{color:#fff;padding:15px 30px;display:block;font-weight:600;font-size:1.7em;text-align:center;text-decoration:none;background-color:#0057E7;letter-spacing:.04em;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;box-shadow: 0 4px 6px rgba(0, 0, 0, .50)}
-#main-content #call-to-action a:hover{color:#fff;background-color:#FF3B30}
+#main-content #call-to-action a:hover{color:#fff;background-color:#D62D20}
 
 #main-content #under-link{margin:5px 0;display:block;text-align:center;font-size:1.25em}
 
