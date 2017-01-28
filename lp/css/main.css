@@ -29,7 +29,7 @@ body{font-family:'PT Sans', Arial, sans-serif}
 
 #main-content{max-width:812px;margin:10px auto;padding:0 10px}
 
-#main-content h1{color:#4c8efa;font-size:1.95em;text-align:center}
+#main-content h1{color:#4c8efa;font-size:1.95em;text-align:center;padding-bottom:30px}
 
 #main-content h1 span{color:#ec008c}
 #main-content h1 b{text-transform:uppercase}
@@ -126,3 +126,4 @@ body{font-family:'PT Sans', Arial, sans-serif}
 #main-content #secrets .table .table-cell h3{margin:0 !important}
 #main-content #secrets .table .table-cell ul{margin:0 !important}
 
+@media screen and (max-width: 768px){#main-content h1{line-height:1}
