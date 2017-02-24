@@ -1,26 +1,27 @@
 <!DOCTYPE HTML>
 <html>
- <style type="text/css">
-  #ifr {
-    position: absolute;
-    top:0px;
-    left:0px;
-    width:100%x;
-}
-  </style>
+<style type="text/css">
+	#ifr {
+		position: absolute;
+		top:0px;
+		left:0px;
+		width:100%x;
+	}
+</style>
 
-    
- <meta charset="utf-8" />
-<title>Название страницы</title> 
- <iframe id="ifr" src="ссылка из ПП?sid1=<?php echo $_GET['utm_source'];?>&sid2=<?php echo $_GET['utm_campaign'];?>&sid3=<?php echo $_GET['utm_content'];?>&sid4=<?php echo $_GET['utm_term'];?>" width="100%" height=100% scrolling="yes" align="left" frameborder=0>
- 
- </iframe> 
- <script>
-window.onload=function() {
-document.getElementById("ifr").style.height=window.innerHeight+"px";
-}
+<meta charset="utf-8" />
+<title>title</title>
+
+<iframe id="ifr" src="http://link.ru/?sid1=<?php echo $_GET['utm_source'];?>&sid2=<?php echo $_GET['utm_campaign'];?>&sid3=<?php echo $_GET['utm_content'];?>&sid4=<?php echo $_GET['utm_term'];?>" width="100%" height=100% scrolling="yes" align="left" frameborder=0>
+</iframe>
+
+<script>
+	window.onload=function() {
+		document.getElementById("ifr").style.height=window.innerHeight+"px";
+	}
 </script>
 <!--
 <iframe src="белый домена" height="1200px" width="100%" frameborder="0" scrolling="no"></iframe> 
---></body>
+-->
+</body>
 </html>
