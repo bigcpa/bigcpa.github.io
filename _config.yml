@@ -42,25 +42,25 @@ jekyll-archives:
 
 # Navigation (2nd level links supported)
 nav:
-    Главнвя:
-        - '/blog/'
-    Тех. часть:
-        - '/tag/jekyll/'
-    Продвижение: 
-        - '/tag/seo/'
-    Делай деньги:
-        - '/tag/money/'
-    Софт и сервисы:
-        - '/tag/partner/'
-    Linux: 
-        - '/tag/linux/'
-    # Категории:           
-    #     - '/cat/'
-    #     - { Теги: '/tag/' }
-    О блоге:          
-        - '/whois/'
-    Карта блога:          
-        - '/tag/'
+  Главнвя:
+    - '/blog/'
+  Заработок:
+    - '/tag/money/'
+  Тех. часть:
+    - '/tag/jekyll/'
+  Продвижение: 
+    - '/tag/seo/'
+  Софт и сервисы:
+    - '/tag/partner/'
+  Linux: 
+    - '/tag/linux/'
+  # Категории:           
+  #   - '/cat/'
+  #   - { Теги: '/tag/' }
+  О блоге:          
+    - '/whois/'
+  Карта блога:          
+    - '/tag/'
       
 gems:
   - jekyll-paginate
