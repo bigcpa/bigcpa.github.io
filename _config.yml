@@ -37,15 +37,15 @@ nav:
   Главнвя:
     - '/blog/'
   Заработок:
-    - '/tag/money/'
+    - '/tags/money/'
   Тех. часть:
-    - '/tag/jekyll/'
+    - '/tags/jekyll/'
   Продвижение: 
-    - '/tag/seo/'
+    - '/tags/seo/'
   Софт и сервисы:
-    - '/tag/partner/'
+    - '/tags/partner/'
   Linux: 
-    - '/tag/linux/'
+    - '/tags/linux/'
   # Категории:           
   #   - '/cat/'
   #   - { Теги: '/tag/' }
