@@ -18,7 +18,7 @@ sitemap:
         <loc>{{ site.url }}{{ post.url }}</loc>
         <lastmod>{% if post.updated == null %}{{ post.date | date: '%Y-%m-%d' }}{% else %}{{ post.updated | date: '%Y-%m-%d' }}{% endif %}</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.3</priority>
+        <priority>0.8</priority>
     </url>
     {% endfor %}
 
@@ -28,7 +28,7 @@ sitemap:
         <loc>{{ site.url }}/tag/{{ tag[0] | slugify }}/</loc>
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
         <changefreq>weekly</changefreq>
-        <priority>0.5</priority>
+        <priority>0.6</priority>
     </url>
     {% endfor %}
 
