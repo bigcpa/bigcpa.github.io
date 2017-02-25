@@ -28,9 +28,9 @@ defaults:
   -
     scope:
       path: ""
-      type: tags
+      type: tag
     values:
-      layout: tags
+      layout: tag
 
 # Navigation (2nd level links supported)
 nav:
@@ -52,7 +52,7 @@ nav:
   О блоге:          
     - '/whois/'
   Карта блога:          
-    - '/tag/'
+    - '/tags/'
       
 gems:
   - jekyll-paginate
