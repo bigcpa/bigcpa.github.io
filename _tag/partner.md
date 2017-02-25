@@ -1,0 +1,4 @@
+---
+slug: partner
+name: Partner
+---
