@@ -58,6 +58,9 @@ gems:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-mentions
+  - jekyll-redirect-from
+  - jemoji
   
 markdown: kramdown
 
