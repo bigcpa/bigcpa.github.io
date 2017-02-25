@@ -52,7 +52,7 @@ nav:
   О блоге:          
     - '/whois/'
   Карта блога:          
-    - '/tag-site/'
+    - '/tag/'
       
 gems:
   - jekyll-paginate

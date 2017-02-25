@@ -2,9 +2,7 @@
 layout: post
 title: What's Jekyll?
 category: Money
-tags:
-  - jekyll
-  - test
+tags: [jekyll, test]
 author: Alex Creio
 comments: true
 ---
