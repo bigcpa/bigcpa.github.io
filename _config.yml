@@ -22,7 +22,7 @@ wmail-verification:  615e0612a1330fb09470e65c76b774af
 collections:
   tags:
     output: true
-    permalink: /tag/:name/
+    permalink: /tags/:name/
 
 defaults:
   -
