@@ -2,7 +2,7 @@
 layout: post
 title: Introducing Lanyon Лорем ипсум
 permalink: /blog/intro/
-category: seo
+category: [linux, money]
 tags: [linux, тег jekyll]
 author:
   - name
