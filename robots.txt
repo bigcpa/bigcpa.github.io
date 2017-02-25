@@ -1,5 +1,8 @@
 User-agent: *
 Allow: /$
+Allow: /blog
+Allow: /tag
+Allow: /p
 Disallow: /
 
 Host: bigcpa.github.io
