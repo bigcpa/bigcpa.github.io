@@ -25,7 +25,7 @@ sitemap:
     <!-- Tags -->
     {% for tag in site.tags %}
     <url>
-        <loc>{{ site.url }}/blog/{{ tag[0] | slugify }}/</loc>
+        <loc>{{ site.url }}/tag/{{ tag[0] | slugify }}/</loc>
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>

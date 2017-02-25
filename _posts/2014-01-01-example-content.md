@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Example content
-category: linux
 tags: [jekyll, test]
 post_video: xzB7EkyyoxU
 comment: 'true'

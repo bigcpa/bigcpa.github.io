@@ -1,7 +1,6 @@
 ---
 layout: post
 title: What's Jekyll?
-category: [linux, money]
 tags: [jekyll, test]
 author: Alex Creio
 comments: true
