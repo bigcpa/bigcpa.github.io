@@ -19,15 +19,18 @@ yandex-verification: 0454ff3fa7a92182
 wmail-verification:  615e0612a1330fb09470e65c76b774af
 
 # collections:
-#   category:
-#     output: true
+collections:
+  tags:
+    output: true
+    permalink: /tag/:name/
 
-# defaults:
-#   - scope:
-#       path: ""
-#       type: category
-#     values:
-#       layout: category
+defaults:
+  -
+    scope:
+      path: ""
+      type: tags
+    values:
+      layout: tags
 
 # Navigation (2nd level links supported)
 nav:
@@ -53,6 +56,8 @@ nav:
       
 gems:
   - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
   
 markdown: kramdown
 
