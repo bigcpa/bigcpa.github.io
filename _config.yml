@@ -20,17 +20,17 @@ wmail-verification:  615e0612a1330fb09470e65c76b774af
 
 # collections:
 collections:
-  cat:
+  tag:
     output: true
-    permalink: /cat/:name/
+    permalink: /tag/:name/
 
 defaults:
   -
     scope:
       path: ""
-      type: cat
+      type: tag
     values:
-      layout: cat
+      layout: tag
 
 # Navigation (2nd level links supported)
 nav:
@@ -45,7 +45,7 @@ nav:
   Софт и сервисы:
     - '/tags/partner/'
   Linux: 
-    - '/cat/linux/'
+    - '/tag/linux/'
   # Категории:           
   #   - '/cat/'
   #   - { Теги: '/tag/' }
