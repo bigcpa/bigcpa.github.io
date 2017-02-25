@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introducing Lanyon Лорем ипсум
-permalink: /tag/linux/intro/
+permalink: /p/intro/
 tags: [linux, тег jekyll]
 author:
   - name
