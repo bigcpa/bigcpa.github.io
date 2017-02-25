@@ -18,27 +18,16 @@ google-verification: 6GXUozcEfaPdh8Qcr-0qBY2AV8MkL-QoQ66FpbytieM
 yandex-verification: 0454ff3fa7a92182
 wmail-verification:  615e0612a1330fb09470e65c76b774af
 
-collections:
-  category:
-    output: true
+# collections:
+#   category:
+#     output: true
 
-defaults:
-  - scope:
-      path: ""
-      type: category
-    values:
-      layout: category
-      
-jekyll-archives:
-  enabled: 
-    - tags
-    # - categories
-  layouts:
-    tag: tag
-    # category: cat
-  permalinks:
-    tag: '/tag/:name/'
-    # category: '/cat/:name/'
+# defaults:
+#   - scope:
+#       path: ""
+#       type: category
+#     values:
+#       layout: category
 
 # Navigation (2nd level links supported)
 nav:
@@ -64,7 +53,6 @@ nav:
       
 gems:
   - jekyll-paginate
-  - jekyll-archives
   
 markdown: kramdown
 
