@@ -1,0 +1,86 @@
+# Setup
+title:               'BIGCPA'
+description:         'Партнерский маркетинг, арбитраж трафика. Создание, продвижение, оптимизация сайтов и многое другое.'
+tagline:             'Make Money Online'
+info:                'Блог о Партнёрском маркетинге, создании сайтов и не только.'
+url:                 http://ancient-emu.cloudvent.net
+baseurl:             ''
+
+# About/contact
+author:              Alex Creio
+email:               mailcreio@gmail.com
+avatar:              ava4.jpg
+
+twitter:             https://twitter.com/acretm
+disqus_shortname:    bigcpa
+
+google-verification: 6GXUozcEfaPdh8Qcr-0qBY2AV8MkL-QoQ66FpbytieM
+yandex-verification: 0454ff3fa7a92182
+wmail-verification:  615e0612a1330fb09470e65c76b774af
+
+# collections:
+#   category:
+#     output: true
+
+# defaults:
+#   - scope:
+#       path: ""
+#       type: category
+#     values:
+#       layout: category
+      
+jekyll-archives:
+  enabled: 
+    - tags
+    # - categories
+  layouts:
+    tag: tag
+    # category: cat
+  permalinks:
+    tag: '/tag/:name/'
+    # category: '/cat/:name/'
+
+# Navigation (2nd level links supported)
+nav:
+    Главнвя:
+        - '/blog/'
+    Тех. часть:
+        - '/tag/jekyll/'
+    Продвижение: 
+        - '/tag/seo/'
+    Делай деньги:
+        - '/tag/money/'
+    Софт и сервисы:
+        - '/tag/partner/'
+    Linux: 
+        - '/tag/linux/'
+    # Категории:           
+    #     - '/cat/'
+    #     - { Теги: '/tag/' }
+    О блоге:          
+        - '/whois/'
+    Карта блога:          
+        - '/tag/'
+      
+gems:
+  - jekyll-paginate
+  - jekyll-archives
+  
+markdown: kramdown
+
+excerpt_separator: "<!--more-->"
+
+# Permalinks
+paginate: 3
+paginate_path: '/blog/page:num/'
+permalink: '/p/:title/'
+
+sass:
+  style: compressed
+  sass_dir: _scss
+  
+  
+  
+  
+  
+  
