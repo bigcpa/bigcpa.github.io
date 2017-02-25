@@ -5,5 +5,5 @@ Allow: /tag
 Allow: /p
 Disallow: /
 
-Sitemap: {{ site.url }}/sitemap.xml
+Sitemap: https://bigcpa.github.io/sitemap.xml
 Host: bigcpa.github.io
