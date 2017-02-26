@@ -138,6 +138,7 @@ img {
     margin: 0;
   }
   form {
+    padding-top: 1rem;
     width: 240px;
     height: 60px;
     border: 10px solid $accent; 
@@ -180,7 +181,6 @@ img {
       }
     }
     span {
-      border-right: 2px solid;
       padding-right: 10px;
       line-height: 40px;
     }
