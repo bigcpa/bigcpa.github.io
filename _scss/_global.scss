@@ -138,7 +138,7 @@ img {
     margin: 0;
   }
   form {
-    padding-top: 1rem;
+    margin-top: 1rem;
     width: 240px;
     height: 60px;
     border: 10px solid $accent; 
@@ -161,7 +161,7 @@ img {
     width: 40px;
     height: 40px;
     background-color: $white;
-    color: $red;
+    color: red;
   }
   .submit:before {
     font-family: FontAwesome;
@@ -199,6 +199,9 @@ img {
   }
   .youtube {
     background-color: #E02F2F;
+    &:hover {
+      background-color: rgba(#E02F2F .7);
+    }
   }
 }
 .recent {
