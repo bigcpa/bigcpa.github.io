@@ -159,7 +159,10 @@ img {
   }
   .submit:before {
     font-family: FontAwesome;
-    content: "\f0e0";
+    content: "\f095";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
   }
   .icon {
     font-size: 2rem;
