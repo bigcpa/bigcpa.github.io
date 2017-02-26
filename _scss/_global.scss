@@ -175,8 +175,14 @@ img {
       line-height: 40px;
       padding-left: 10px;
       &:hover {
+        color: $white;
         text-decoration: none;
       }
+    }
+    span {
+      border-right: 2px solid;
+      padding-right: 10px;
+      line-height: 40px;
     }
   }
   .rss {    
