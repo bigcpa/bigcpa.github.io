@@ -148,7 +148,7 @@ img {
     border-right: 0;
     padding: 0;
     margin: 0;
-    width: 200px;
+    width: 180px;
     height: 40px;
   }
   .submit {
@@ -156,13 +156,6 @@ img {
     height: 40px;
     background-color: #fff;
     color: red;
-  }
-  .submit:before {
-    font-family: FontAwesome;
-    content: "\f095";
-    display: inline-block;
-    padding-right: 3px;
-    vertical-align: middle;
   }
   .icon {
     font-size: 2rem;
