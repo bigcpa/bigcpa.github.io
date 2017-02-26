@@ -138,14 +138,26 @@ img {
   p {
     margin: 0;
   }
-  .email {
-    border: 1px solid $accent;
-    padding: .5rem;
-    margin: 0 .5rem .5rem;
+  form {
+    width: 240px;
+    height: 60px;
   }
-  .submit {    
+  .email {
+    border: none;
+    border-right: 0;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    height: 40px;
+  }
+  .submit {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    color: red;
   }
   .submit:before {
+    font-family: FontAwesome;
     content: "\f0e0";
   }
   .icon {
