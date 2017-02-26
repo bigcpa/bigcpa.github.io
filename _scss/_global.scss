@@ -143,6 +143,11 @@ img {
     padding: .5rem;
     margin: 0 .5rem .5rem;
   }
+  .submit {    
+  }
+  .submit:before {
+    content: /f0e0;
+  }
   .icon {
     font-size: 2rem;
     padding: 0 .5rem;
