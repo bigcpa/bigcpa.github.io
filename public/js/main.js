@@ -64,7 +64,7 @@ $('#fixblock').scroolly([
 	css: {
 		position: 'fixed',
 		top: '0',
-    border: '1px solid'
+    border: '1px solid #ccc'
 	}
 }
 ], $('.sidebar-content'));
