@@ -162,10 +162,11 @@ img {
     height: 40px;
     background-color: $white;
     color: red;
+    cursor: pointer;
   }
   .submit:before {
     font-family: FontAwesome;
-    content: "\f0e0";
+    content: "\f1d9";
   }
   .soc {
     a {
