@@ -32,4 +32,11 @@ sitemap:
     </url>
     {% endfor %}
 
+    <url>
+        <loc>{{ site.url }}/</loc>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+
 </urlset>
