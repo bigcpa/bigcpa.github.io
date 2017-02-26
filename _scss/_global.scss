@@ -329,7 +329,7 @@ img {
   ul {
     list-style-type: none;
     padding: 0;
-    margin-bottom: 2px;
+    margin-bottom: 1px;
   }
   li {
     display: inline;
@@ -348,6 +348,9 @@ img {
       color: $white;
       text-decoration: none;
     } 
+  }
+  .tabs-item {
+    border-left: 1px solid $accent;
   }
 }
 
