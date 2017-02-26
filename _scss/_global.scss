@@ -167,12 +167,20 @@ img {
     font-family: FontAwesome;
     content: "\f0e0";
   }
+  .soc {
+    background: $accent;
+  }
   .icon {
-    font-size: 2rem;
+    font-size: 20px;
     padding: 0;
   }
-  .vk {
-    background: #537599;
+  .rss {    
+    color: tomato;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+  }
+  .vk {    
     color: #fff;
     width: 40px;
     height: 40px;
