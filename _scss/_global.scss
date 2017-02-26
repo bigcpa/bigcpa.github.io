@@ -173,17 +173,30 @@ img {
     padding: 0;
   }
   .rss {    
-    color: tomato;
+    background-color: #ea7819;
     width: 240px;
     display: block;
   }
   .vk {    
-    color: #fff;
+    background-color: #4D76A1;
+    width: 240px;
     display: block;
   }
-  .twitter
-  .telegram
-  .youtube
+  .twitter {
+    background-color: #55acee;
+    width: 240px;
+    display: block;
+  }
+  .telegram {
+    background-color: #20A0E1;
+    width: 240px;
+    display: block;
+  }
+  .youtube {
+    background-color: #E02F2F;
+    width: 240px;
+    display: block;
+  }
 }
 .recent {
   .recent-post {
