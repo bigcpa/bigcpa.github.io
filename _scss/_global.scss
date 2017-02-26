@@ -167,35 +167,32 @@ img {
     content: "\f0e0";
   }
   .soc {
-  }
-  .icon {
-    font-size: 20px;
-    padding: 0;
+    a {
+      width: 240px;
+      display: block;
+      height: 40px;
+      color: $white;
+      line-height: 40px;
+      padding-left: 10px;
+      &:hover {
+        text-decoration: none;
+      }
+    }
   }
   .rss {    
     background-color: #ea7819;
-    width: 240px;
-    display: block;
   }
   .vk {    
     background-color: #4D76A1;
-    width: 240px;
-    display: block;
   }
   .twitter {
     background-color: #55acee;
-    width: 240px;
-    display: block;
   }
   .telegram {
     background-color: #20A0E1;
-    width: 240px;
-    display: block;
   }
   .youtube {
     background-color: #E02F2F;
-    width: 240px;
-    display: block;
   }
 }
 .recent {
