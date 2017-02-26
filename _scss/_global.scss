@@ -65,6 +65,7 @@ img {
 
 .masthead {
   height: 3.5rem;
+  background-color: $white;
   .masthead-title {
     a {
       font-weight: 700;
@@ -79,6 +80,7 @@ img {
 
 .wrap {
   width: 100%;
+  background-color: $bg-grey;
 }
 
 .content {
@@ -86,11 +88,10 @@ img {
 
 .content-wrap {
   width: 100%;
-  margin-top: -2rem;
 }
 // sidebar right
 .sidebar-right {
-  background-color: #f4f5f9;
+  background-color: $white;
   width: 30%;
   margin-left: 2%;
   float: right;
@@ -106,7 +107,7 @@ img {
 }
 .promo {
   padding: 2rem 1rem;
-  background-color: #f4f5f9;
+  background-color: $white;
   text-transform: uppercase;
   p {
     font-size: 1.2rem;
@@ -189,10 +190,11 @@ img {
   margin-bottom: 3rem;
 }
 .post {
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 3rem;
-  margin-top: 3rem;
+  padding: 1rem;
   margin-bottom: 0;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
 }
 .post-title, .page-title {
   font-weight: 700;
