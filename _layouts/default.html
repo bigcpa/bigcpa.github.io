@@ -5,32 +5,32 @@
 
 <body class="sidebar-overlay theme-base-0d">
   {% include sidebar.html %}
-    <div class="wrap">
-      <div class="masthead">
-        <div class="container">
-          <div class="masthead-title">
-            <a href="{{ site.url }}/blog/" title="Home">{{ site.title }}</a> blog
-            <small>{{ site.tagline }}</small>
-          </div>
+  <div class="wrap">
+    <div class="masthead">
+      <div class="container">
+        <div class="masthead-title">
+          <a href="{{ site.url }}/blog/" title="Home">{{ site.title }}</a> blog
+          <small>{{ site.tagline }}</small>
         </div>
       </div>
-
-      <div class="container content">
-        <div class="content-wrap" id="pjax-container">
-          {{ content }}
-        </div>
-        {% include sidebar-right.html %}
-      </div>      
     </div>
-    
-    <div id="scrollup"><i class="fa fa-chevron-circle-up up" aria-hidden="true"></i></div>
 
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-    <script src="{{ site.url }}/public/js/jquery.scroolly.js"></script>
-    <script src="{{ site.url }}/public/js/main.js"></script>
-    
-  </body>
-  </html>
+    <div class="container content">
+      <div class="content-wrap" id="pjax-container">
+        {{ content }}
+      </div>
+      {% include sidebar-right.html %}
+    </div>      
+  </div>
+  
+  <div id="scrollup"><i class="fa fa-chevron-circle-up up" aria-hidden="true"></i></div>
+
+  <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="{{ site.url }}/public/js/jquery.scroolly.js"></script>
+  <script src="{{ site.url }}/public/js/main.js"></script>
+  
+</body>
+</html>
