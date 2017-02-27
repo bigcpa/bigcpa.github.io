@@ -129,7 +129,6 @@ img {
   padding: 1rem 1rem 1.5rem;
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
-  text-align: center;
   h3 {
     margin: 0;
     text-transform: uppercase;
@@ -175,6 +174,8 @@ img {
     }
   }
   .soc {
+    text-align: center;
+    margin-top: .5rem;
     a {
       font-size: 24px;
       display: inline-block;
