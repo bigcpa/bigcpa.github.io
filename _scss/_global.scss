@@ -494,10 +494,9 @@ img {
     color: $white;
     cursor: pointer;
     clear: both;
-  }
-  .submit:before {
-    font-family: FontAwesome;
-    content: "\f1d9";
+    span {
+      line-height: 40px;
+    }
   }
   .soc {
     a {
