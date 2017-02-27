@@ -482,20 +482,19 @@ img {
     height: 40px;
   }
   .submit {
-    background: $bg-grey;
+    background: $lightgrey;
     font-size: 20px;
     border: none;
     width: 40px;
     height: 40px;
-    background-color: $white;
     color: red;
     cursor: pointer;
-    text-align: center;
     clear: both;
   }
   .submit:before {
     font-family: FontAwesome;
     content: "\f1d9";
+    text-align: center;
   }
   .soc {
     a {
