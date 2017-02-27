@@ -18,6 +18,7 @@
   }
 }
 
+// page
 .page {
   margin-bottom: 3rem;
   background-color: $white;
@@ -26,6 +27,7 @@
   -moz-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
 }
+// post
 .post {
   background-color: $white;
   padding: 1rem;
@@ -47,7 +49,6 @@
     text-decoration: none;
   }
 }
-
 .post-date {
   font-size: .7rem;
   color: $lightgrey;
@@ -55,7 +56,6 @@
   a {
   }
 }
-
 .post-img {
 }
 .list-img {
@@ -89,7 +89,6 @@
     font-size: 75%;
   }
 }
-
 .tags-expo {
   :target:before {
     content:"";
