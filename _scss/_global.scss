@@ -489,6 +489,8 @@ img {
     background-color: $white;
     color: red;
     cursor: pointer;
+    text-align: center;
+    clear: both;
   }
   .submit:before {
     font-family: FontAwesome;
