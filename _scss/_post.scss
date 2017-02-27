@@ -125,6 +125,8 @@
         -o-transition: all .3s ease-in-out;
         transition: all .3s ease-in-out;
         padding: 0 1rem;
+        background: $bg-grey;
+        margin-bottom: .5rem;
         &:hover {
           list-style-type: disc;
           padding: 0 .5rem;
