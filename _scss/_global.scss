@@ -454,14 +454,20 @@ img {
   -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
   -moz-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  h3 {
+    margin: 0;
+    text-transform: uppercase;
+    text-align: left;
+  }
   p {
     margin: 0;
   }
   form {
-    margin-top: .5rem;
+    margin: 0;
     width: 240px;
     height: 60px;
-    border: 10px solid $accent; 
+    border: 10px solid $accent;
+    clear: both;
   }
   .email {
     border: none;
@@ -491,10 +497,11 @@ img {
   .soc {
     a {
       display: inline-block;
-      width: 40px;
-      height: 40px;
+      width: 48px;
+      height: 48px;
       color: $white;
-      line-height: 40px;
+      line-height: 48px;
+      float: left;
       &:hover {
         color: $white;
         text-decoration: none;
