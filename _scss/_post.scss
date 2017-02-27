@@ -173,7 +173,7 @@
   .tabs-link {
     text-decoration: none;
     background-color: rgba($accent, 0.15);
-    border: 1px solid $accent;
+    border: 2px solid $accent;
     border-bottom: none;
     padding: .2rem .6rem;
     border-top-left-radius: 4px;
@@ -186,7 +186,7 @@
     } 
   }
   .tabs-item {
-    border-left: 1px solid $accent;
+    border-left: 2px solid $accent;
   }
 }
 
@@ -223,7 +223,6 @@
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
   h3 {
     margin: 0;
-    text-transform: uppercase;
     text-align: left;
   }
   p {
@@ -344,7 +343,6 @@
         color: #999;
       }
       a {
-        line-height: 1.2;
       }
       a:hover {
         color: $accent-hover;
