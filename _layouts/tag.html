@@ -9,12 +9,12 @@ layout: default
       {% if site.tags[page.slug] %}
       <ul class="tags-expo-posts">
         {% for post in site.tags[page.slug] %}
-        <li>
-          <a href="{{ post.url }}">
+        <a href="{{ post.url }}">
+          <li>
             {{ post.title }}
             <small class="post-date">{% include date.html date=post.date %}</small>
-          </a>
-        </li>
+          </li>
+        </a>
         {% endfor %}
       </ul>
       {% else %}
