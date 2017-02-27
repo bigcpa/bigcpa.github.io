@@ -37,6 +37,11 @@
   -moz-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
 }
+@media (min-width: 38em) {
+  .post {
+    padding: 5px;
+  }
+}
 .post-title, .page-title {
   font-weight: 400;
   color: #5e676d;
@@ -147,7 +152,7 @@
 @media (max-width: 320px) {
   .share {
     p {
-      
+
     }
   }
 }
