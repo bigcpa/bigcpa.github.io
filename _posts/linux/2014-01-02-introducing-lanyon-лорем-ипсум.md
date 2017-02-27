@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introducing Lanyon Лорем ипсум
+title: Introducing Lanyon Лорем ипсум Лорем ипсум
 permalink: /p/intro/
 tags: [linux, тег jekyll]
 author:
