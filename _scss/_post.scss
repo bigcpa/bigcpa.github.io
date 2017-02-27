@@ -144,18 +144,36 @@
   }
 }
 
+// video post 
+.embed-responsive {
+  position: relative;
+  display: block;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  margin: 1rem 0;
+}
+.embed-responsive .embed-responsive-item, .embed-responsive iframe, .embed-responsive embed, .embed-responsive object {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.embed-responsive.embed-responsive-16by9 {
+  padding-bottom: 56.25%;
+}
+.embed-responsive.embed-responsive-4by3 {
+  padding-bottom: 75%;
+}
+
 // share
 .share {
   p {
     font-weight: 700;
     margin-bottom: .4rem;
-  }
-}
-@media (max-width: 320px) {
-  .share {
-    p {
-
-    }
   }
 }
 
@@ -338,6 +356,7 @@
     margin-bottom: 0;
     li {
       border-bottom: 1px solid #ccc;
+      margin-bottom: .5rem;
       small {
         font-size: 75%;
         color: #999;
@@ -353,31 +372,6 @@
       }
     }
   }
-}
-
-// video post 
-.embed-responsive {
-  position: relative;
-  display: block;
-  height: 0;
-  padding: 0;
-  overflow: hidden;
-  margin: 1rem 0;
-}
-.embed-responsive .embed-responsive-item, .embed-responsive iframe, .embed-responsive embed, .embed-responsive object {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
-}
-.embed-responsive.embed-responsive-16by9 {
-  padding-bottom: 56.25%;
-}
-.embed-responsive.embed-responsive-4by3 {
-  padding-bottom: 75%;
 }
 
 #disqus_thread {
