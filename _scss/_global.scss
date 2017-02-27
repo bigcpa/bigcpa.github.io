@@ -482,10 +482,11 @@ img {
     height: 40px;
   }
   .submit {
+    background: $bg-grey;
     font-size: 20px;
     border: none;
-    width: 39px;
-    height: 39px;
+    width: 40px;
+    height: 40px;
     background-color: $white;
     color: red;
     cursor: pointer;
