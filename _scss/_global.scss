@@ -482,8 +482,10 @@ img {
     height: 40px;
   }
   .submit {
-    background: $lightgrey;
+    background: $accent-hover;
     font-size: 20px;
+    text-align: center;
+    display: inline-block;
     border: none;
     width: 40px;
     height: 40px;
@@ -494,7 +496,6 @@ img {
   .submit:before {
     font-family: FontAwesome;
     content: "\f1d9";
-    text-align: center;
   }
   .soc {
     a {
