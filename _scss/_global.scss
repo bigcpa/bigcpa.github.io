@@ -488,6 +488,54 @@ img {
     font-family: FontAwesome;
     content: "\f1d9";
   }
+  .soc {
+    a {
+      width: 240px;
+      display: inline-block;
+      height: 40px;
+      color: $white;
+      line-height: 40px;
+      padding-left: 10px;
+      &:hover {
+        color: $white;
+        text-decoration: none;
+      }
+    }
+    span {
+      padding-right: 10px;
+      line-height: 40px;
+    }
+  }
+  .rss {    
+    background-color: #ea7819;
+    &:hover {
+      background-color: rgba(#ea7819, .75);
+    }
+  }
+  .vk {    
+    background-color: #4D76A1;
+    &:hover {
+      background-color: rgba(#4D76A1, .75);
+    }
+  }
+  .twitter {
+    background-color: #55acee;
+    &:hover {
+      background-color: rgba(#55acee, .75);
+    }
+  }
+  .telegram {
+    background-color: #20A0E1;
+    &:hover {
+      background-color: rgba(#20A0E1, .75);
+    }
+  }
+  .youtube {
+    background-color: #E02F2F;
+    &:hover {
+      background-color: rgba(#E02F2F, .75);
+    }
+  }
   .icon {
     font-size: 2rem;
     padding: 0 .5rem;
