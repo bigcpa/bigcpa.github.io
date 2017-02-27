@@ -31,12 +31,14 @@
 }
 // subsc sidebar
 .subsc {
-  padding: 1rem 1rem 1.5rem;
-  border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
+  background-color: #f4f5f9;
+  text-align: center;
+  padding: 1rem;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
   h3 {
     margin: 0;
-    text-transform: uppercase;
     text-align: left;
   }
   p {
@@ -45,7 +47,7 @@
   form {
     text-align: center;
     margin: 0;
-    width: 240px;
+    width: 220px;
     height: 60px;
     border: 10px solid $accent;
     clear: both;
@@ -58,7 +60,7 @@
     font-size: 85%;
     float: left;
     padding: 0 5px;
-    width: 180px;
+    width: 160px;
     vertical-align: top;
     height: 40px;
   }
@@ -84,7 +86,7 @@
     a {
       font-size: 24px;
       display: inline-block;
-      width: 48px;
+      width: 44px;
       height: 48px;
       color: $white;
       line-height: 48px;
