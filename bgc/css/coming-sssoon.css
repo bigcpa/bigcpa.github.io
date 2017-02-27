@@ -53,25 +53,25 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, .btn-s
 
 @font-face {
     font-family: 'Uni Sans';
-    src: local('Uni Sans Thin Caps'), local('UniSansThinCaps'), url('../fonts/unisansthincaps.woff2') format('woff2'), url('../fonts/unisansthincaps.woff') format('woff'), url('../fonts/unisansthincaps.ttf') format('truetype');
+    src: local('Uni Sans Thin Caps'), local('UniSansThinCaps'), url('bgc/fonts/unisansthincaps.woff2') format('woff2'), url('bgc/fonts/unisansthincaps.woff') format('woff'), url('bgc/fonts/unisansthincaps.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 }
 @font-face {
     font-family: 'Uni Sans';
-    src: local('Uni Sans Thin Caps Italic'), local('UniSansThinCapsItalic'), url('../fonts/unisansthincapsitalic.woff2') format('woff2'), url('../fonts/unisansthincapsitalic.woff') format('woff'), url('../fonts/unisansthincapsitalic.ttf') format('truetype');
+    src: local('Uni Sans Thin Caps Italic'), local('UniSansThinCapsItalic'), url('bgc/fonts/unisansthincapsitalic.woff2') format('woff2'), url('bgc/fonts/unisansthincapsitalic.woff') format('woff'), url('bgc/fonts/unisansthincapsitalic.ttf') format('truetype');
     font-weight: 300;
     font-style: italic;
 }
 @font-face {
     font-family: 'Uni Sans';
-    src: local('Uni Sans Heavy Caps'), local('UniSansHeavyCaps'), url('../fonts/unisansheavycaps.woff2') format('woff2'), url('../fonts/unisansheavycaps.woff') format('woff'), url('../fonts/unisansheavycaps.ttf') format('truetype');
+    src: local('Uni Sans Heavy Caps'), local('UniSansHeavyCaps'), url('bgc/fonts/unisansheavycaps.woff2') format('woff2'), url('bgc/fonts/unisansheavycaps.woff') format('woff'), url('bgc/fonts/unisansheavycaps.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
 }
 @font-face {
     font-family: 'Uni Sans';
-    src: local('Uni Sans Heavy Caps Italic'), local('UniSansHeavyCapsItalic'), url('../fonts/unisansheavycapsitalic.woff2') format('woff2'), url('../fonts/unisansheavycapsitalic.woff') format('woff'), url('../fonts/unisansheavycapsitalic.ttf') format('truetype');
+    src: local('Uni Sans Heavy Caps Italic'), local('UniSansHeavyCapsItalic'), url('bgc/fonts/unisansheavycapsitalic.woff2') format('woff2'), url('bgc/fonts/unisansheavycapsitalic.woff') format('woff'), url('bgc/fonts/unisansheavycapsitalic.ttf') format('truetype');
     font-weight: 900;
     font-style: italic;
 }
