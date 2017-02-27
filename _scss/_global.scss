@@ -138,51 +138,56 @@ img {
     margin: 0;
   }
   form {
-    margin-top: .5rem;
+    text-align: center;
+    margin: 0;
     width: 240px;
     height: 60px;
-    border: 10px solid $accent; 
+    border: 10px solid $accent;
+    clear: both;
   }
   .email {
     border: none;
     border-right: 0;
     padding: 0;
     margin: 0;
-    width: 175px;
     font-size: 85%;
+    float: left;
     padding: 0 5px;
-    width: 175px;
+    width: 180px;
     vertical-align: top;
     height: 40px;
   }
   .submit {
-    font-size: 26px;
+    background: $accent-hover;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
     border: none;
     width: 40px;
     height: 40px;
-    background-color: $white;
-    color: red;
+    line-height: 40px;
+    color: $white;
     cursor: pointer;
-  }
-  .submit:before {
-    font-family: FontAwesome;
-    content: "\f1d9";
+    clear: both;
+    span {
+      line-height: 40px;
+    }
   }
   .soc {
     a {
-      width: 240px;
-      display: block;
-      height: 40px;
+      font-size: 24px;
+      display: inline-block;
+      width: 48px;
+      height: 48px;
       color: $white;
-      line-height: 40px;
-      padding-left: 10px;
+      line-height: 48px;
+      float: left;
       &:hover {
         color: $white;
         text-decoration: none;
       }
     }
     span {
-      padding-right: 10px;
       line-height: 40px;
     }
   }
