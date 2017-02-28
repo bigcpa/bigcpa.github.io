@@ -83,6 +83,13 @@ img {
   }
 }
 
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+    margin: auto;
+  }
+}
+
 @media (min-width: 1920px) {
   .container {
     max-width: 1200px;
