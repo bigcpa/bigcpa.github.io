@@ -68,9 +68,17 @@ img {
 }
 
 // media content
+@media (max-width: 1920px) {
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+  }
+}
+
 @media (min-width: 925px) {
   .container {
     max-width: 1200px;
+    margin-left: 13rem;
   }
   .content-wrap {
     float: left;
