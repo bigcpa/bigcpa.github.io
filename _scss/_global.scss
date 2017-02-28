@@ -68,7 +68,7 @@ img {
 }
 
 // media content
-@media (min-width: 1200px) {
+@media (min-width: 925px) {
   .container {
     max-width: 1200px;
   }
@@ -79,10 +79,5 @@ img {
   }
   .sidebar-right {
     display: block;
-  }
-}
-@media (min-width: 105em) {
-  .container {
-    margin-left: auto;
   }
 }

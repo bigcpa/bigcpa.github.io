@@ -63,25 +63,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*
- * Container
- *
- * Center the page content.
- */
-
-@media (min-width: 48em) {
-  .container {
-    margin-left: 14rem;
-    padding-left: 0;
-  }
-}
-
-@media (min-width: 56em) {
-  .container {
-    max-width: 100%;
-  }
-}
-
-/*
  * Masthead
  *
  * Super small header above the content for site name and short description.
@@ -212,7 +193,7 @@ a.sidebar-nav-item {
   }
 }
 
-@media (max-width: 48em) {
+@media (max-width: 1200px) {
   .sidebar {
     visibility: hidden;
   }
@@ -288,7 +269,7 @@ a.sidebar-nav-item {
   }
 }
 
-@media (max-width: 48em) {
+@media (max-width: 1200px) {
   .sidebar-toggle {
     display: block;
   }
