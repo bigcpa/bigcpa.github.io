@@ -34,17 +34,44 @@ img {
   }
 }
 
+// head
 .masthead {
   height: 3.5rem;
   background-color: $white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
   .masthead-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0 1rem;
+    color: $default;
     a {
       font-weight: 700;
+      color: $default;
       &:hover {
         background: linear-gradient(135deg, $accent-hover 20%, $magenta 70%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
       }
+    }
+    small {
+      font-size: 75%;
+      font-weight: 400;
+      color: $lightgrey;
+      letter-spacing: 0;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .masthead-title {
+    text-align: center;
+    small {
+      display: none;
     }
   }
 }
@@ -71,7 +98,7 @@ img {
 @media (min-width: 925px) {
   .container {
     max-width: 1200px;
-    margin-left: 13rem;
+    margin-left: auto;
   }
   .content-wrap {
     float: left;
@@ -86,7 +113,7 @@ img {
 @media (min-width: 1200px) {
   .container {
     max-width: 1200px;
-    margin: auto;
+    margin-left: 13rem;
   }
 }
 
