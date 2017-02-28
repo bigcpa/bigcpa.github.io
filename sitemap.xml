@@ -22,18 +22,6 @@ exclude: 'yes'
   </url>
   {% endfor %}
 
-  <!-- Page -->
-  {% for page in site.pages %}
-  {% if page.sitemap != false %}
-  <url>
-    <loc>{{ site.url }}{{ page.url }}</loc>
-    <lastmod>{% if post.updated == null %}{{ post.date | date: '%Y-%m-%d' }}{% else %}{{ post.updated | date: '%Y-%m-%d' }}{% endif %}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  {% endif %}
-  {% endfor %}
-
   <!-- Tags -->
   {% for tag in site.tags %}
   <url>
